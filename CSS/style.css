@@ -1,0 +1,44 @@
+body {
+  font-family: 'Press Start 2P', 'Helvetica Neue';
+  color: green;
+  background: black;
+}
+
+.heading {
+  font-size: 3.5em;
+}
+
+.clock {
+  max-width: 600px;
+}
+
+.inputs {
+  padding: 20px;
+  font-size: 1.5em;
+  //border: 1px solid white;
+}
+
+.btn-row {
+  max-width: 200px;
+}
+
+.btn-default {
+  color: white;
+  background: green;
+  border-color: green;
+}
+
+.timerSec {
+  border: 1px solid green;
+  padding: 25px;
+}
+
+#timerText {
+  color: white;
+}
+
+#timer {
+  font-size: 4em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

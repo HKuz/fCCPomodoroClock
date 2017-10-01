@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Pomodoro Clock</title>
+    </head>
+    <body>
+       <div class="container-fluid">
+            <div class="clock center-block text-center">
+              <h1 class="heading">Arcade Pomodoro Clock</h1>
+              
+              <div class="row">   
+                <div class="col-sm-6">
+                  <div class="inputs">
+                    <h4>Break Session</h4><br>
+                    <div class="row center-block btn-row">
+                      <div class="col-xs-4">
+                        <button id="breakDown" class="btn btn-default up-down" role="button" aria-label="Decrease break time">-</button>
+                      </div>
+                      <div class="col-xs-4">
+                        <div id="breakTime">5</div>
+                      </div>
+                      <div class="col-xs-4">
+                        <button id="breakUp" class="btn btn-default up-down" role="button" aria-label="Increase break time">+</button>
+                      </div>
+                    </div> <!-- end inner row -->
+                  </div> <!-- end break section -->
+                </div> <!-- end col -->
+                
+                <div class="col-sm-6">
+                  <div class="inputs">
+                    <h4>Work Session</h4><br>
+                    <div class="row center-block btn-row">
+                      <div class="col-xs-4">
+                        <button id="workDown" class="btn btn-default up-down" role="button" aria-label="Decrease work time">-</button>
+                      </div>
+                      <div class="col-xs-4">
+                        <div id="workTime">25</div>
+                      </div>
+                      <div class="col-xs-4">
+                        <button id="workUp" class="btn btn-default up-down" role="button" aria-label="Increase work time">+</button>
+                      </div>
+                    </div> <!-- end inner row -->
+                  </div> <!-- end work section -->
+                </div> <!-- end col -->
+              </div> <!-- end Row -->
+              <div class="row">
+                <div class="col-xs-12">
+                  <br>
+                  <div class="timerSec">
+                    <h2 id="timerText">Ready Player 1?</h2><br>
+                    <h1 id="timer">0:00</h1><br>
+                    <button id="start" class="btn btn-default btn-lg">Start</button><button id="pause" class="btn btn-danger btn-lg disabled">Pause</button>
+                  </div> <!-- end timerSec -->
+                </div> <!-- end col -->
+              </div> <!-- end row -->
+              
+            </div> <!-- end clock div -->
+          </div> <!-- end container fluid -->
+
+    <!-- jQuery and Bootstrap Minified JavaScript scripts -->
+    <!-- Check jQuery and Bootstrap websites for latest version numbers -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>
